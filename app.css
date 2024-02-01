@@ -103,13 +103,20 @@ nav {
 
 /* Black back #23272A with four column #F08080 #1FB2AA */
 
-footer{
+.bg-black{
   background-color: #23272A;
-
 }
 
 .footer-top .col{
   min-height: 400px;
+}
+
+.bg-sea_green{
+  background-color: #1FB2AA;
+}
+
+.box-sea_green{
+  flex-grow: 1;
 }
 
 /* Black footer #23272A with nav #1FB2AA and elements pink #FFB6C1 */
