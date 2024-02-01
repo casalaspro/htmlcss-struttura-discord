@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+a{
+  text-decoration: none;
+  color: currentColor;
+}
+
 /* LAYOUT */
 
 .container{
@@ -52,13 +57,13 @@ nav {
   background-color: #02008B;
 }
 
-.col .bg-strong_pink{
+.row .bg-strong_pink{
   background-color: #EE81ED;
 }
 
-.debug .box-strong_pink{
+.row .box-strong_pink{
   min-height: 400px;
-
+  flex-grow: 1;
 }
 
 /* White back with double column #1D90FF #FFC0CA */
