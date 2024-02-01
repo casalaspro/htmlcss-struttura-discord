@@ -84,15 +84,18 @@ nav {
 
 .row .bg-cyan{
   background-color: #1D90FF;
+}
+
+.box-cyan{
   flex-grow: 3;
+}
+
+.bg-white .box-salmon{
+  flex-grow: 2;
 }
 
 .row .bg-salmon{
   background-color: #FFC0CA;
-}
-
-.bg-grey .box-salmon{
-  flex-grow: 2;
 }
 
 /* Grey back #D3D3D3 with double colomn */
@@ -100,6 +103,11 @@ nav {
 .bg-grey{
   background-color: #D3D3D3;
 }
+
+.bg-grey .box-salmon{
+  flex-grow: 2;
+}
+
 
 /* Grey back with huge green box #238A23 */
 
