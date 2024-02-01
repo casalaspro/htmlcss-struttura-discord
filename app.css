@@ -1,4 +1,5 @@
 /* RESET */
+
 *{
   padding: 0;
   margin: 0;
@@ -156,8 +157,6 @@ section.bg-blue_navy .box-strong_pink{
 .footer-top .box-salmon{
   flex-grow: 2;
 }
-
-
 
 /* Black footer #23272A with nav #7FFFD4 and elements pink #FFB6C1 */
 
