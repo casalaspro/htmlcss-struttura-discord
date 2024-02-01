@@ -27,8 +27,51 @@ a{
   border: 1px dashed black;
 }
 
+/* bg-color */
+
+.bg-blue_navy{
+  background-color: #02008B;
+}
+
+.bg-strong_pink{
+  background-color: #EE81ED;
+}
+
+.bg-salmon{
+  background-color: #FFC0CA;
+}
+
+.bg-cyan{
+  background-color: #1D90FF;
+}
+
+.bg-grey{
+  background-color: #D3D3D3;
+}
+
+.bg-dark_green{
+  background-color: #238A23;
+}
+
+
+.bg-black{
+  background-color: #23272A;
+}
+
+.bg-sea_green{
+  background-color: #1FB2AA;
+}
+
+.bg-pink{
+  background-color: #FFB6C1;
+}
+
+.bg-light_green{
+  background-color: #7FFFD4;
+}
 
 /* Header */
+
 nav {
   background-color: #ADD8E5;
 }
@@ -59,19 +102,11 @@ nav {
 
 /* Blue back #02008B with pink box #EE81ED */
 
-.bg-blue_navy{
-  background-color: #02008B;
-}
-
-.bg-blue_navy .row{
+section.bg-blue_navy{
   justify-content: center;
 }
 
-.row .bg-strong_pink{
-  background-color: #EE81ED;
-}
-
-.row .box-strong_pink{
+section.bg-blue_navy .box-strong_pink{
   min-height: 400px;
   flex-basis: 80%;
 }
@@ -82,10 +117,6 @@ nav {
   min-height: 500px;
 }
 
-.row .bg-cyan{
-  background-color: #1D90FF;
-}
-
 .box-cyan{
   flex-grow: 3;
 }
@@ -94,15 +125,7 @@ nav {
   flex-grow: 2;
 }
 
-.row .bg-salmon{
-  background-color: #FFC0CA;
-}
-
 /* Grey back #D3D3D3 with double colomn */
-
-.bg-grey{
-  background-color: #D3D3D3;
-}
 
 .bg-grey .box-salmon{
   flex-grow: 2;
@@ -111,10 +134,6 @@ nav {
 
 /* Grey back with huge green box #238A23 */
 
-.row .bg-dark_green{
-  background-color: #238A23;
-  }
-
 .row .box-dark_green{
   flex-grow: 1;
   min-height: 700px
@@ -122,20 +141,12 @@ nav {
 
 /* Black back #23272A with four column #F08080 #1FB2AA */
 
-.bg-black{
-  background-color: #23272A;
-}
-
 .footer-top{
   border-bottom: 1px solid #E3E3E3;
 }
 
 .footer-top .col{
   min-height: 400px;
-}
-
-.bg-sea_green{
-  background-color: #1FB2AA;
 }
 
 .box-sea_green{
@@ -150,14 +161,6 @@ nav {
 
 
 /* Black footer #23272A with nav #7FFFD4 and elements pink #FFB6C1 */
-
-.bg-pink{
-  background-color: #FFB6C1;
-}
-
-.bg-light_green{
-  background-color: #7FFFD4;
-}
 
 section.footer-bottom{
   border-bottom: 1px solid #E3E3E3;
