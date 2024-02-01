@@ -63,7 +63,7 @@ nav {
 
 .row .box-strong_pink{
   min-height: 400px;
-  flex-grow: 1;
+  flex-basis: 80%;
 }
 
 /* White back with double column #1D90FF #FFC0CA */
@@ -91,6 +91,12 @@ nav {
 /* White back with double column #1D90FF #FFC0CA */
 
 /* Grey back with huge green box #238A23 */
+
+.row .bg-dark_green{
+  background-color: #238A23;
+  flex-grow: 1;
+  min-height: 700px
+}
 
 /* Black back #23272A with four column #F08080 #1FB2AA */
 
