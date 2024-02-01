@@ -84,6 +84,9 @@ nav {
 
 .row .bg-salmon{
   background-color: #FFC0CA;
+}
+
+.bg-grey .box-salmon{
   flex-grow: 2;
 }
 
@@ -107,6 +110,10 @@ nav {
   background-color: #23272A;
 }
 
+.footer-top{
+  border-bottom: 1px solid #E3E3E3;
+}
+
 .footer-top .col{
   min-height: 400px;
 }
@@ -118,6 +125,12 @@ nav {
 .box-sea_green{
   flex-grow: 1;
 }
+
+.footer-top .box-salmon{
+  flex-grow: 2;
+}
+
+
 
 /* Black footer #23272A with nav #1FB2AA and elements pink #FFB6C1 */
 
