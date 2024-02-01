@@ -39,11 +39,39 @@ nav {
   display: flex;
   justify-content:center ;
   flex-grow: 3;
+  gap: 10px;
 }
 
 .navigator .col:nth-child(3){
   flex-grow: 1;
 }
+
+/* Blue back #02008B with pink box #EE81ED */
+
+.bg-blue_navy{
+  background-color: #02008B;
+}
+
+.col .bg-strong_pink{
+  background-color: #EE81ED;
+}
+
+.debug .box-strong_pink{
+  min-height: 400px;
+
+}
+
+/* White back with double column #1D90FF #FFC0CA */
+
+/* Grey back #D3D3D3 with double colomn */
+
+/* White back with double column #1D90FF #FFC0CA */
+
+/* Grey back with huge green box #238A23 */
+
+/* Black back #23272A with four column #F08080 #1FB2AA */
+
+/* Black footer #23272A with nav #1FB2AA and elements pink #FFB6C1 */
 
 
 
