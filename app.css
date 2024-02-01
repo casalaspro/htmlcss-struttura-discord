@@ -15,6 +15,7 @@ a{
 .container{
   width: 1024px;
   margin: auto;
+  padding: 25px;
 }
 
 .row{
@@ -102,6 +103,15 @@ nav {
 
 /* Black back #23272A with four column #F08080 #1FB2AA */
 
+footer{
+  background-color: #23272A;
+
+}
+
+.footer-top .col{
+  min-height: 400px;
+}
+
 /* Black footer #23272A with nav #1FB2AA and elements pink #FFB6C1 */
 
 
@@ -117,7 +127,6 @@ nav {
 .debug .container{
   border: 2px solid black;
   /* min-height: 1000px; */
-  padding: 20px;
 } 
 
 .debug [class^='col']{
