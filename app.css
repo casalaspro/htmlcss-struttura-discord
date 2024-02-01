@@ -127,6 +127,7 @@ nav {
 
 .box-sea_green{
   flex-grow: 1;
+  border-color: #E3E3E3;
 }
 
 .footer-top .box-salmon{
@@ -168,6 +169,6 @@ background-color: #FFB6C1;
   /* min-height: 1000px; */
 } 
 
-.debug [class^='col']{
+/* .debug [class^='col']{
   border: 1px dashed black;
-}
+} */
