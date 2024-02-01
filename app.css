@@ -23,6 +23,11 @@ a{
   flex-wrap: wrap;
 }
 
+.col{
+  border: 1px dashed black;
+}
+
+
 /* Header */
 nav {
   background-color: #ADD8E5;
@@ -139,17 +144,20 @@ nav {
 /* Black footer #23272A with nav #7FFFD4 and elements pink #FFB6C1 */
 
 .bg-pink{
-background-color: #FFB6C1;
+  background-color: #FFB6C1;
 }
 
 .bg-light_green{
   background-color: #7FFFD4;
 }
 
+section.footer-bottom{
+  border-bottom: 1px solid #E3E3E3;
+}
+
 .footer-bottom .row{
   padding: 20px 0;
   justify-content: space-between;
-  border-bottom: 1px solid #E3E3E3;
 }
 
 .foot-logo, .foot-button{
