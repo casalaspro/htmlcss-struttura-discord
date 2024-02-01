@@ -57,6 +57,10 @@ nav {
   background-color: #02008B;
 }
 
+.bg-blue_navy .row{
+  justify-content: center;
+}
+
 .row .bg-strong_pink{
   background-color: #EE81ED;
 }
