@@ -7,7 +7,9 @@
 
 /* LAYOUT */
 
-
+.container{
+  width: 1024;
+}
 
 
 
@@ -16,6 +18,6 @@
 
 /* DEBUG */
 
-.debug{
-  
+.debug .container{
+  border: 2px solid black;
 }
